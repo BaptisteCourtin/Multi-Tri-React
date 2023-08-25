@@ -1,9 +1,15 @@
 .app {
   color: var(--color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background);
 
   .allPages {
     padding-top: 70px;
     min-height: calc(100vh - 70px);
+
+    max-width: 1500px;
 
     display: flex;
     flex-direction: column;
@@ -12,6 +18,5 @@
 
     text-align: center;
     width: 100%;
-    background-color: var(--background);
   }
 }
