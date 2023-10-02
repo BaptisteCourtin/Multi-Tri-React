@@ -3,7 +3,7 @@ import React from "react";
 const Album = ({ pochette, titre, artiste, date, genre }) => {
   return (
     <div className="album">
-      <img src={pochette} alt={pochette} />
+      <img src={pochette} alt={pochette} loading="lazy" />
       <h2>{titre.toUpperCase()}</h2>
       <h4>{artiste}</h4>
       <p>{date}</p>
